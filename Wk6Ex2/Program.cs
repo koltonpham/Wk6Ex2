@@ -49,15 +49,15 @@ namespace Wk6Ex2
             Console.WriteLine(); //blank for readability
 
             Student student2 = new Student("John", 1234567, 20, "Accounting"); //create new customized student
-            student2.DisplayStudentDetails(); //call method for default mobilephone
+            student2.DisplayStudentDetails(); //call method for default student
             Console.WriteLine(); //blank for readability
 
             Student student3 = new Student("Chloe", 7896541, 20, "Nursing"); //create new customized student
-            student3.DisplayStudentDetails(); //call method for default mobilephone
+            student3.DisplayStudentDetails(); //call method for customized student
             Console.WriteLine(); //blank for readability
 
             Student student4 = new Student("Kobe", 7895412, 22, "CS"); //create new customized student
-            student4.DisplayStudentDetails(); //call method for default mobilephone
+            student4.DisplayStudentDetails(); //call method for customized student
             Console.WriteLine(); //blank for readability
 
         }
